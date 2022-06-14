@@ -1,5 +1,13 @@
+<!-- to run the webpage using port 4200 and 5000-->
+<!-- ng serve ** this is for host 4200 ** -->
+<!-- make sure inside of package.json inside scripts 
+     "server" : "json-server --watch db.json 5000"
+      npm run server -->
+
 <div class="container">
   <app-header></app-header>
   <router-outlet></router-outlet>
-  <app-tasks></app-tasks>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+  <!-- <app-tasks></app-tasks> -->
 </div>
